@@ -5,4 +5,5 @@ const CONNECTION_STRING = `mongodb+srv://quyenspm:lewDyr9UU9MIdRVh@cluster0.tuzc
 
 module.exports = {
   CONNECTION_STRING,
+  DATABASE_NAME,
 };

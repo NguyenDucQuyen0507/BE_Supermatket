@@ -1,7 +1,10 @@
 "use strict";
 // Khai báo thư viện MongoClient
 const { MongoClient, ObjectId } = require("mongodb");
-const { CONNECTION_STRING } = require("../constants/connectionDB");
+const {
+  CONNECTION_STRING,
+  DATABASE_NAME,
+} = require("../constants/connectionDB");
 
 // Chuỗi kết nối đến MongoDB local
 // const DATABASE_NAME = "cloud-market-AH";
