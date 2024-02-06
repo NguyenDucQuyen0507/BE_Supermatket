@@ -149,10 +149,11 @@ router.get("/questions", async (req, res, next) => {
 router.get("/timkiem", async (req, res, next) => {
   const query = req.query;
   try {
-    if (query) {
+    if (query.name) {
       query.name = { $regex: query.name, $options: "i" };
     }
     const results = await findDocuments({ query: query }, "products");
+    console.log(results);
     res.json(results);
   } catch (error) {
     res.status(500).json(error);
