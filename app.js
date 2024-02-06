@@ -71,7 +71,7 @@ app.use(
       "http://localhost:5173",
       "http://127.0.0.1:5173",
       "https://e-supermatket.vercel.app",
-      "https://e-supermatket-admin.vercel.app/",
+      "https://e-supermatket-admin.vercel.app",
     ],
     methods: "GET,POST,PATCH,DELETE,PUT",
     credentials: true,
