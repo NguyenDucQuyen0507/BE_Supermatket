@@ -1,10 +1,11 @@
 "use strict";
 // Khai báo thư viện MongoClient
 const { MongoClient, ObjectId } = require("mongodb");
+const { CONNECTION_STRING } = require("../constants/connectionDB");
 
 // Chuỗi kết nối đến MongoDB local
-const DATABASE_NAME = "cloud-market-AH";
-const CONNECTION_STRING = "mongodb://127.0.0.1:27017/" + DATABASE_NAME;
+// const DATABASE_NAME = "cloud-market-AH";
+// const CONNECTION_STRING = "mongodb://127.0.0.1:27017/" + DATABASE_NAME;
 
 //Chuỗi kết nối đến MongoDB Atlas
 // const DATABASE_NAME = "cloud-market-at-home";
